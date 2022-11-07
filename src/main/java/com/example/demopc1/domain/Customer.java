@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Customer {
     @Id
-    
+
     private int custId;
     private String custName,custPhone;
     private Product product;

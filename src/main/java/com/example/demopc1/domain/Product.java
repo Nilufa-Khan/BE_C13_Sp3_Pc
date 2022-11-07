@@ -37,6 +37,7 @@ public class Product {
         this.productDescr = productDescr;
     }
 
+
     @Override
     public String toString() {
         return "Product{" +
